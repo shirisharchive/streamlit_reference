@@ -2,8 +2,16 @@
 
 Here I will write some code that will help us to connect google colab with streamlit
 
+
+
 !pip install streamlit
+
+
+
 import streamlit as st
+
+
+
 %%writefile app.py -> This will create new app.py if it exists then it will overwrite else creats the one and it is the executing file so it contains all business logic and model implementation
 
 
